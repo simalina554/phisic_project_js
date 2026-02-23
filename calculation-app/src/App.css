@@ -1,0 +1,98 @@
+:root{
+  --bg: #63DB93;
+  --bg-btn: #007730;
+}
+
+*{
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+body{
+  background: var(--bg);
+}
+
+button{
+  background-color: var(--bg-btn);
+  width: 90px;
+  height: 25px;
+  color: #fff;
+  border-radius: 5px;
+  border: none;
+}
+
+button:hover{
+  transition: 0.3 ease;
+  transform: scale(0.95);
+  cursor: pointer;
+}
+
+input{
+  background: white;
+  border-radius: 5px;
+  margin: 5px;
+  border: 1px solid var(--bg);
+}
+
+section{
+  padding: 100px;
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+
+}
+
+img{
+  margin-bottom: 100px;
+}
+
+input:focus{
+  outline: none;
+}
+
+.btn{
+  display: flex;
+  gap: 10px;
+}
+
+@media(max-width:700px){
+  section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+  }
+  input{
+    width: 90%;
+    margin: 5px 0;
+  }
+  .btn{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 5px;
+  }
+
+  img{
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .btn_group{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  label{
+    text-align: center;
+    display: block;
+  }
+
+  .data, .sum{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+}
