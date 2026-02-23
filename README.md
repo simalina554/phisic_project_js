@@ -13,4 +13,7 @@ This project was successfully migrated from a **Windows Forms (C#)** desktop app
 ## 🛠 Technologies Used
 - **Frontend:** React.js / HTML5 / CSS3
 - **Logic:** JavaScript (ES6+)
-- **Deployment:** [Vercel](https://vercel.com)
+- **Deployment:** Vercel
+
+<img width="360" alt="image" src="https://github.com/user-attachments/assets/926dcdfe-0619-4a50-af8b-b5c6cd7e6de8" /><br>
+LINK: https://phisic-project-js.vercel.app/
