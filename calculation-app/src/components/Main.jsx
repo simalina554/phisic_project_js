@@ -1,4 +1,3 @@
-
 function Main() {
     function btn_click() {
 
@@ -38,7 +37,7 @@ function Main() {
     return (
         <section>
             <div className="btn">
-                <img src="/public/img/img_1.png" alt="circle" />
+                <img src="/img/img_1.png" alt="circle" />
                 <div className="btn_group">
                 <button onClick={btn_click}>Расчет</button>
                 <button onClick={btn_clean}>Сброс</button></div>
